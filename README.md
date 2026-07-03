@@ -4,10 +4,14 @@ This repository contains a modern static website for Altacalo-Soft. It uses only
 
 ## Files
 
-- `index.html` - page structure, SEO metadata, sections, contact form, and footer.
-- `styles.css` - responsive layout, visual design, animations, and mobile navigation styles.
-- `script.js` - mobile menu behavior, section highlighting, reveal animations, dynamic year, and mailto contact form generation.
+- `index.html` - page structure, SEO metadata, sections, contact form, and footer, with `data-i18n` attributes for translation.
+- `styles.css` - responsive layout, visual design, animations, mobile navigation, and language-switch styles.
+- `script.js` - mobile menu behavior, section highlighting, reveal animations, dynamic year, English/Spanish translations, and mailto contact form generation.
 - `README.md` - project notes and deployment instructions.
+
+## Language Switching
+
+The site ships in English and Spanish. A toggle in the header (`EN` / `ES`) swaps all text, ARIA labels, and meta tags client-side via a translation dictionary in `script.js`. The chosen language is remembered in `localStorage`, and on first visit the browser's language is used to pick a default.
 
 ## Contact Form
 

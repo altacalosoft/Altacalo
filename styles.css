@@ -115,9 +115,49 @@ textarea {
 .header-layout {
   min-height: var(--header-height);
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto auto 1fr auto;
   align-items: center;
   gap: 24px;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lang-switch {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--white);
+}
+
+.lang-btn {
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  padding: 0 13px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 180ms ease, color 180ms ease;
+}
+
+.lang-btn + .lang-btn {
+  border-left: 1px solid var(--line);
+}
+
+.lang-btn:hover {
+  color: var(--navy);
+}
+
+.lang-btn[aria-pressed="true"] {
+  color: var(--navy);
+  background: rgba(21, 216, 255, 0.14);
 }
 
 .brand,

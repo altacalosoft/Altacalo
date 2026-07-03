@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Altacalo-Soft | Software and IT Solutions for Modern Businesses</title>
-  <meta name="description" content="Altacalo-Soft provides software and hardware consulting, process automation, system integration, and enterprise technology solutions for modern businesses.">
+  <meta name="description" content="Altacalo-Soft provides software consulting, process automation, system integration, and enterprise technology solutions for modern businesses.">
   <meta name="author" content="Altacalo-Soft">
   <meta name="robots" content="index, follow">
 
@@ -21,30 +21,37 @@
 
   <header class="site-header" data-header>
     <div class="container header-layout">
-      <a class="brand" href="#home" aria-label="Altacalo-Soft home">
+      <a class="brand" href="#home" data-i18n-aria-label="nav.brandAria" aria-label="Altacalo-Soft home">
         <span class="brand-mark" aria-hidden="true">A</span>
         <span>Altacalo-Soft</span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu" data-nav-toggle>
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+      <div class="header-controls">
+        <div class="lang-switch" role="group" data-i18n-aria-label="lang.groupAria" aria-label="Language selector">
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="true" data-i18n-aria-label="lang.switchToEnglish" aria-label="Switch to English">EN</button>
+          <button type="button" class="lang-btn" data-lang="es" aria-pressed="false" data-i18n-aria-label="lang.switchToSpanish" aria-label="Switch to Spanish">ES</button>
+        </div>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-i18n-aria-label="nav.toggleOpen" aria-label="Open navigation menu" data-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
 
       <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation" data-nav>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#company">Company</a></li>
-          <li><a href="#process">Process</a></li>
-          <li><a href="#cases">Cases</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home" data-i18n="nav.home">Home</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#company" data-i18n="nav.company">Company</a></li>
+          <li><a href="#process" data-i18n="nav.process">Process</a></li>
+          <li><a href="#cases" data-i18n="nav.cases">Cases</a></li>
+          <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
         </ul>
       </nav>
 
-      <a class="header-button" href="#contact">Contact Us</a>
+      <a class="header-button" href="#contact" data-i18n="nav.headerButton">Contact Us</a>
     </div>
   </header>
 
@@ -53,16 +60,16 @@
       <div class="hero-grid" aria-hidden="true"></div>
       <div class="container hero-layout">
         <div class="hero-content reveal">
-          <p class="eyebrow">Software, hardware, automation, and integration</p>
-          <h1>Software and IT Solutions for Modern Businesses</h1>
-          <p class="hero-subtitle">We transform business processes through custom software, automation, technology integration, and specialized support.</p>
+          <p class="eyebrow" data-i18n="hero.eyebrow">Software, automation, and integration</p>
+          <h1 data-i18n="hero.title">Software and IT Solutions for Modern Businesses</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">We transform business processes through custom software, automation, technology integration, and specialized support.</p>
           <div class="hero-actions" aria-label="Hero actions">
-            <a class="button button-primary" href="#services">Explore Services</a>
-            <a class="button button-secondary" href="#contact">Request a Consultation</a>
+            <a class="button button-primary" href="#services" data-i18n="hero.exploreServices">Explore Services</a>
+            <a class="button button-secondary" href="#contact" data-i18n="hero.requestConsultation">Request a Consultation</a>
           </div>
         </div>
 
-        <div class="hero-panel reveal" aria-label="Altacalo-Soft capability overview">
+        <div class="hero-panel reveal" data-i18n-aria-label="hero.panelAria" aria-label="Altacalo-Soft capability overview">
           <div class="orbit" aria-hidden="true">
             <span></span>
             <span></span>
@@ -70,18 +77,18 @@
           </div>
           <div class="signal-card signal-card-large">
             <span class="metric">24/7</span>
-            <span>Operational support mindset</span>
+            <span data-i18n="hero.metricLabel">Operational support mindset</span>
           </div>
           <div class="signal-row">
             <div class="signal-card">
               <span class="mini-icon">API</span>
-              <strong>Integration</strong>
-              <p>Systems, data, and workflows connected.</p>
+              <strong data-i18n="hero.integrationTitle">Integration</strong>
+              <p data-i18n="hero.integrationDesc">Systems, data, and workflows connected.</p>
             </div>
             <div class="signal-card">
               <span class="mini-icon">CI</span>
-              <strong>Automation</strong>
-              <p>Repeatable delivery and process control.</p>
+              <strong data-i18n="hero.automationTitle">Automation</strong>
+              <p data-i18n="hero.automationDesc">Repeatable delivery and process control.</p>
             </div>
           </div>
         </div>
@@ -91,9 +98,9 @@
     <section class="section section-anchor" id="services">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="eyebrow">Services</p>
-          <h2>Enterprise technology services built for practical outcomes</h2>
-          <p>Altacalo-Soft combines engineering, architecture, automation, and support to help businesses modernize operations without unnecessary complexity.</p>
+          <p class="eyebrow" data-i18n="services.eyebrow">Services</p>
+          <h2 data-i18n="services.heading">Enterprise technology services built for practical outcomes</h2>
+          <p data-i18n="services.intro">Altacalo-Soft combines engineering, architecture, automation, and support to help businesses modernize operations without unnecessary complexity.</p>
         </div>
 
         <div class="service-grid">
@@ -101,64 +108,64 @@
             <span class="service-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H14v2h3v2H7v-2h3v-2H6.5A2.5 2.5 0 0 1 4 13.5v-7Zm2 0v7c0 .28.22.5.5.5h11a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5Z"/></svg>
             </span>
-            <h3>Custom Software Development</h3>
-            <p>Tailor-made web platforms, business systems, APIs, and digital tools designed around your process.</p>
+            <h3 data-i18n="services.item1.title">Custom Software Development</h3>
+            <p data-i18n="services.item1.desc">Tailor-made web platforms, business systems, APIs, and digital tools designed around your process.</p>
           </article>
           <article class="service-card reveal">
             <span class="service-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="M12 3 3 8l9 5 9-5-9-5Zm0 7.7L7.1 8 12 5.3 16.9 8 12 10.7ZM5 11.2l7 3.9 7-3.9v2.3l-7 3.9-7-3.9v-2.3Zm0 4.5 7 3.9 7-3.9V18l-7 3.9L5 18v-2.3Z"/></svg>
             </span>
-            <h3>Enterprise Architecture</h3>
-            <p>Architecture planning for scalable, secure, and maintainable enterprise technology ecosystems.</p>
+            <h3 data-i18n="services.item2.title">Enterprise Architecture</h3>
+            <p data-i18n="services.item2.desc">Architecture planning for scalable, secure, and maintainable enterprise technology ecosystems.</p>
           </article>
           <article class="service-card reveal">
             <span class="service-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="M7.5 7A4.5 4.5 0 0 1 12 2.5 4.5 4.5 0 0 1 16.5 7H19a3 3 0 0 1 0 6h-2.5a4.5 4.5 0 0 1-9 0H5a3 3 0 1 1 0-6h2.5ZM12 4.5A2.5 2.5 0 0 0 9.5 7h5A2.5 2.5 0 0 0 12 4.5ZM5 9a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H5Zm4.5 4A2.5 2.5 0 0 0 12 15.5a2.5 2.5 0 0 0 2.5-2.5h-5Z"/></svg>
             </span>
-            <h3>Blockchain Solutions</h3>
-            <p>Consulting and implementation for traceability, smart contracts, and decentralized transaction flows.</p>
+            <h3 data-i18n="services.item3.title">Blockchain Solutions</h3>
+            <p data-i18n="services.item3.desc">Consulting and implementation for traceability, smart contracts, and decentralized transaction flows.</p>
           </article>
           <article class="service-card reveal">
             <span class="service-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="M12 3C7.6 3 4 4.34 4 6v12c0 1.66 3.6 3 8 3s8-1.34 8-3V6c0-1.66-3.6-3-8-3Zm0 2c3.42 0 5.62.8 5.96 1-.34.2-2.54 1-5.96 1s-5.62-.8-5.96-1c.34-.2 2.54-1 5.96-1Zm6 5c0 .36-2.1 1.5-6 1.5S6 10.36 6 10V8.35C7.45 8.93 9.6 9 12 9s4.55-.07 6-.65V10Zm0 4c0 .36-2.1 1.5-6 1.5S6 14.36 6 14v-1.65c1.45.58 3.6.65 6 .65s4.55-.07 6-.65V14Zm-6 5c-3.9 0-6-1.14-6-1.5v-1.15c1.45.58 3.6.65 6 .65s4.55-.07 6-.65v1.15c0 .36-2.1 1.5-6 1.5Z"/></svg>
             </span>
-            <h3>PostgreSQL Support</h3>
-            <p>Database consulting, optimization, administration, reliability work, and production support.</p>
+            <h3 data-i18n="services.item4.title">PostgreSQL Support</h3>
+            <p data-i18n="services.item4.desc">Database consulting, optimization, administration, reliability work, and production support.</p>
           </article>
           <article class="service-card reveal">
             <span class="service-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.93 9h-3.09a14.2 14.2 0 0 0-1.1-5.02A8.03 8.03 0 0 1 18.93 11ZM12 4.04c.68.98 1.57 3.12 1.82 6.96h-3.64C10.43 7.16 11.32 5.02 12 4.04ZM4.26 13h3.9c.12 1.77.46 3.42.98 4.77A8.03 8.03 0 0 1 4.26 13Zm3.9-2h-3.9a8.03 8.03 0 0 1 4.88-4.77A16.2 16.2 0 0 0 8.16 11ZM12 19.96c-.68-.98-1.57-3.12-1.82-6.96h3.64c-.25 3.84-1.14 5.98-1.82 6.96Zm2.86-2.19c.52-1.35.86-3 .98-4.77h3.9a8.03 8.03 0 0 1-4.88 4.77Z"/></svg>
             </span>
-            <h3>Oracle Support</h3>
-            <p>Specialized help for Oracle environments, performance analysis, migrations, and maintenance planning.</p>
+            <h3 data-i18n="services.item5.title">Oracle Support</h3>
+            <p data-i18n="services.item5.desc">Specialized help for Oracle environments, performance analysis, migrations, and maintenance planning.</p>
           </article>
           <article class="service-card reveal">
             <span class="service-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="M11 2h2v3.07a7.02 7.02 0 0 1 4.37 2.56L20.03 6 21 7.73l-2.66 1.53A6.83 6.83 0 0 1 19 12c0 .95-.2 1.88-.55 2.71L21 16.27 20.03 18l-2.63-1.52A7.03 7.03 0 0 1 13 18.93V22h-2v-3.07a7.03 7.03 0 0 1-4.4-2.45L3.97 18 3 16.27l2.55-1.56A6.83 6.83 0 0 1 5 12c0-.96.19-1.88.54-2.72L3 7.73 3.97 6l2.65 1.53A7.02 7.02 0 0 1 11 5.07V2Zm1 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"/></svg>
             </span>
-            <h3>DevOps</h3>
-            <p>CI/CD, infrastructure automation, monitoring, deployment strategy, and operational reliability.</p>
+            <h3 data-i18n="services.item6.title">DevOps</h3>
+            <p data-i18n="services.item6.desc">CI/CD, infrastructure automation, monitoring, deployment strategy, and operational reliability.</p>
           </article>
           <article class="service-card reveal">
             <span class="service-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="M8 11a4 4 0 1 1 3.45-6.03l-1.72 1.02A2 2 0 1 0 10 7h2a4 4 0 0 1-4 4Zm8 0a4 4 0 1 1 3.45-6.03l-1.72 1.02A2 2 0 1 0 18 7h2a4 4 0 0 1-4 4ZM3 15a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v3H3v-3Zm2 1v1h6v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2Zm8 2v-2.5c0-1.38-.56-2.63-1.47-3.54A4 4 0 0 1 14 11h3a4 4 0 0 1 4 4v3h-8Z"/></svg>
             </span>
-            <h3>Technology Outsourcing</h3>
-            <p>Dedicated technical capacity for software, infrastructure, support, and project delivery.</p>
+            <h3 data-i18n="services.item7.title">Technology Outsourcing</h3>
+            <p data-i18n="services.item7.desc">Dedicated technical capacity for software, infrastructure, support, and project delivery.</p>
           </article>
           <article class="service-card reveal">
             <span class="service-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="M5 3h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-5v2h3v2H7v-2h3v-2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm0 2v10h14V5H5Zm2 2h5v2H7V7Zm0 4h10v2H7v-2Zm8-4h2v2h-2V7Z"/></svg>
             </span>
-            <h3>UX/UI Design</h3>
-            <p>Interface design for business tools, dashboards, portals, and digital service experiences.</p>
+            <h3 data-i18n="services.item8.title">UX/UI Design</h3>
+            <p data-i18n="services.item8.desc">Interface design for business tools, dashboards, portals, and digital service experiences.</p>
           </article>
           <article class="service-card reveal">
             <span class="service-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2v3h16V6H4Zm0 5v7h16v-7H4Zm2 2h6v2H6v-2Zm8 0h4v2h-4v-2Z"/></svg>
             </span>
-            <h3>CMS Web Development</h3>
-            <p>Maintainable content websites and CMS-driven pages for teams that need clear publishing workflows.</p>
+            <h3 data-i18n="services.item9.title">CMS Web Development</h3>
+            <p data-i18n="services.item9.desc">Maintainable content websites and CMS-driven pages for teams that need clear publishing workflows.</p>
           </article>
         </div>
       </div>
@@ -167,31 +174,31 @@
     <section class="section section-muted section-anchor" id="company">
       <div class="container split-layout">
         <div class="section-heading reveal">
-          <p class="eyebrow">About Altacalo-Soft</p>
-          <h2>Consulting for connected, scalable, and efficient technology</h2>
-          <p>Altacalo-Soft is a software and hardware consulting company focused on integration, automation, and scalable digital solutions. We help organizations optimize operations through secure, efficient, and tailor-made technology.</p>
+          <p class="eyebrow" data-i18n="company.eyebrow">About Altacalo-Soft</p>
+          <h2 data-i18n="company.heading">Consulting for connected, scalable, and efficient technology</h2>
+          <p data-i18n="company.desc">Altacalo-Soft is a software consulting company focused on custom development, automation, and scalable digital solutions. We help organizations optimize operations through secure, efficient, and tailor-made technology.</p>
         </div>
 
         <div class="value-grid">
           <article class="value-card reveal">
             <span aria-hidden="true">01</span>
-            <h3>Innovation</h3>
-            <p>Modern solutions that solve real business constraints.</p>
+            <h3 data-i18n="company.value1.title">Innovation</h3>
+            <p data-i18n="company.value1.desc">Modern solutions that solve real business constraints.</p>
           </article>
           <article class="value-card reveal">
             <span aria-hidden="true">02</span>
-            <h3>Quality</h3>
-            <p>Disciplined implementation, testing, and technical review.</p>
+            <h3 data-i18n="company.value2.title">Quality</h3>
+            <p data-i18n="company.value2.desc">Disciplined implementation, testing, and technical review.</p>
           </article>
           <article class="value-card reveal">
             <span aria-hidden="true">03</span>
-            <h3>Scalability</h3>
-            <p>Architectures that can evolve with users, data, and operations.</p>
+            <h3 data-i18n="company.value3.title">Scalability</h3>
+            <p data-i18n="company.value3.desc">Architectures that can evolve with users, data, and operations.</p>
           </article>
           <article class="value-card reveal">
             <span aria-hidden="true">04</span>
-            <h3>Technical Support</h3>
-            <p>Specialized follow-through after launch and during growth.</p>
+            <h3 data-i18n="company.value4.title">Technical Support</h3>
+            <p data-i18n="company.value4.desc">Specialized follow-through after launch and during growth.</p>
           </article>
         </div>
       </div>
@@ -200,42 +207,42 @@
     <section class="cta-band">
       <div class="container cta-layout reveal">
         <div>
-          <p class="eyebrow">Digital transformation</p>
-          <h2>Grow Your Business with Digital Solutions</h2>
-          <p>Digitalize processes, centralize information, and improve operational efficiency with solutions designed for your business.</p>
+          <p class="eyebrow" data-i18n="cta.eyebrow">Digital transformation</p>
+          <h2 data-i18n="cta.heading">Grow Your Business with Digital Solutions</h2>
+          <p data-i18n="cta.desc">Digitalize processes, centralize information, and improve operational efficiency with solutions designed for your business.</p>
         </div>
-        <a class="button button-light" href="#contact">Contact Us</a>
+        <a class="button button-light" href="#contact" data-i18n="cta.button">Contact Us</a>
       </div>
     </section>
 
     <section class="section section-anchor" id="approach">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="eyebrow">Our Approach</p>
-          <h2>Three technical areas working as one delivery model</h2>
+          <p class="eyebrow" data-i18n="approach.eyebrow">Our Approach</p>
+          <h2 data-i18n="approach.heading">Three software disciplines, one delivery model</h2>
         </div>
 
         <div class="approach-grid">
           <article class="approach-card reveal">
             <div class="approach-top">
-              <span class="approach-icon" aria-hidden="true">S</span>
-              <h3>Software</h3>
+              <span class="approach-icon" aria-hidden="true">P</span>
+              <h3 data-i18n="approach.item1.title">Product Engineering</h3>
             </div>
-            <p>Agile teams, web development, APIs, automation.</p>
+            <p data-i18n="approach.item1.desc">Agile teams, custom web platforms, APIs, and automation from discovery to delivery.</p>
           </article>
           <article class="approach-card reveal">
             <div class="approach-top">
-              <span class="approach-icon" aria-hidden="true">H</span>
-              <h3>Hardware</h3>
+              <span class="approach-icon" aria-hidden="true">C</span>
+              <h3 data-i18n="approach.item2.title">Cloud &amp; DevOps</h3>
             </div>
-            <p>Device integration, firmware, PCB, embedded systems.</p>
+            <p data-i18n="approach.item2.desc">CI/CD pipelines, infrastructure automation, monitoring, and deployment reliability.</p>
           </article>
           <article class="approach-card reveal">
             <div class="approach-top">
-              <span class="approach-icon" aria-hidden="true">T</span>
-              <h3>Telecommunications</h3>
+              <span class="approach-icon" aria-hidden="true">D</span>
+              <h3 data-i18n="approach.item3.title">Data &amp; Integration</h3>
             </div>
-            <p>Connectivity, monitoring, network integration, support.</p>
+            <p data-i18n="approach.item3.desc">Database engineering, system integration, and secure data flows across your stack.</p>
           </article>
         </div>
       </div>
@@ -244,30 +251,30 @@
     <section class="section section-muted section-anchor" id="process">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="eyebrow">Work Process</p>
-          <h2>A clear path from business need to supported solution</h2>
+          <p class="eyebrow" data-i18n="process.eyebrow">Work Process</p>
+          <h2 data-i18n="process.heading">A clear path from business need to supported solution</h2>
         </div>
 
         <ol class="process-list">
           <li class="process-step reveal">
             <span>01</span>
-            <h3>Discovery</h3>
-            <p>We understand goals, users, workflows, constraints, integrations, and operational priorities.</p>
+            <h3 data-i18n="process.step1.title">Discovery</h3>
+            <p data-i18n="process.step1.desc">We understand goals, users, workflows, constraints, integrations, and operational priorities.</p>
           </li>
           <li class="process-step reveal">
             <span>02</span>
-            <h3>Design and Architecture</h3>
-            <p>We define the solution structure, user experience, data flows, security needs, and delivery plan.</p>
+            <h3 data-i18n="process.step2.title">Design and Architecture</h3>
+            <p data-i18n="process.step2.desc">We define the solution structure, user experience, data flows, security needs, and delivery plan.</p>
           </li>
           <li class="process-step reveal">
             <span>03</span>
-            <h3>Development and Testing</h3>
-            <p>We build iteratively, validate functionality, review quality, and test business-critical workflows.</p>
+            <h3 data-i18n="process.step3.title">Development and Testing</h3>
+            <p data-i18n="process.step3.desc">We build iteratively, validate functionality, review quality, and test business-critical workflows.</p>
           </li>
           <li class="process-step reveal">
             <span>04</span>
-            <h3>Deployment and Support</h3>
-            <p>We release the solution, assist adoption, monitor behavior, and provide post-deployment support.</p>
+            <h3 data-i18n="process.step4.title">Deployment and Support</h3>
+            <p data-i18n="process.step4.desc">We release the solution, assist adoption, monitor behavior, and provide post-deployment support.</p>
           </li>
         </ol>
       </div>
@@ -276,26 +283,26 @@
     <section class="section section-anchor" id="cases">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="eyebrow">Success Cases</p>
-          <h2>Example solutions</h2>
-          <p>The following cases are generic example solutions for illustration only. They are not real client projects.</p>
+          <p class="eyebrow" data-i18n="cases.eyebrow">Success Cases</p>
+          <h2 data-i18n="cases.heading">Example solutions</h2>
+          <p data-i18n="cases.intro">The following cases are generic example solutions for illustration only. They are not real client projects.</p>
         </div>
 
         <div class="case-grid">
           <article class="case-card reveal">
-            <p class="case-label">Example solution</p>
-            <h3>Internal Business Management Platform</h3>
-            <p>A centralized platform concept for operational records, approvals, reporting, and role-based team access.</p>
+            <p class="case-label" data-i18n="cases.label">Example solution</p>
+            <h3 data-i18n="cases.case1.title">Internal Business Management Platform</h3>
+            <p data-i18n="cases.case1.desc">A centralized platform concept for operational records, approvals, reporting, and role-based team access.</p>
           </article>
           <article class="case-card reveal">
-            <p class="case-label">Example solution</p>
-            <h3>Mobile App for Digital Services</h3>
-            <p>A mobile service concept for customer requests, status tracking, secure user access, and digital notifications.</p>
+            <p class="case-label" data-i18n="cases.label">Example solution</p>
+            <h3 data-i18n="cases.case2.title">Mobile App for Digital Services</h3>
+            <p data-i18n="cases.case2.desc">A mobile service concept for customer requests, status tracking, secure user access, and digital notifications.</p>
           </article>
           <article class="case-card reveal">
-            <p class="case-label">Example solution</p>
-            <h3>Administrative Process Automation</h3>
-            <p>An automation concept for repetitive administrative work, document routing, alerts, and internal dashboards.</p>
+            <p class="case-label" data-i18n="cases.label">Example solution</p>
+            <h3 data-i18n="cases.case3.title">Administrative Process Automation</h3>
+            <p data-i18n="cases.case3.desc">An automation concept for repetitive administrative work, document routing, alerts, and internal dashboards.</p>
           </article>
         </div>
       </div>
@@ -304,31 +311,31 @@
     <section class="section section-muted section-anchor" id="faq">
       <div class="container faq-layout">
         <div class="section-heading reveal">
-          <p class="eyebrow">FAQ</p>
-          <h2>Frequently asked questions</h2>
-          <p>Quick answers about how Altacalo-Soft starts, builds, and supports technology projects.</p>
+          <p class="eyebrow" data-i18n="faq.eyebrow">FAQ</p>
+          <h2 data-i18n="faq.heading">Frequently asked questions</h2>
+          <p data-i18n="faq.intro">Quick answers about how Altacalo-Soft starts, builds, and supports technology projects.</p>
         </div>
 
         <div class="faq-list reveal">
           <details>
-            <summary>How can Altacalo-Soft improve my company&rsquo;s efficiency?</summary>
-            <p>By automating repetitive activities, integrating disconnected systems, improving data visibility, and building tools that match your real operational workflows.</p>
+            <summary data-i18n="faq.q1">How can Altacalo-Soft improve my company&rsquo;s efficiency?</summary>
+            <p data-i18n="faq.a1">By automating repetitive activities, integrating disconnected systems, improving data visibility, and building tools that match your real operational workflows.</p>
           </details>
           <details>
-            <summary>What type of solutions do you develop?</summary>
-            <p>We develop custom software, web platforms, APIs, process automation, database solutions, system integrations, embedded technology, and enterprise support models.</p>
+            <summary data-i18n="faq.q2">What type of solutions do you develop?</summary>
+            <p data-i18n="faq.a2">We develop custom software, web platforms, APIs, process automation, database solutions, system integrations, embedded technology, and enterprise support models.</p>
           </details>
           <details>
-            <summary>Do you work with small companies or startups?</summary>
-            <p>Yes. Projects can start with a focused MVP, a technical audit, a small automation, or a phased delivery plan that grows with the business.</p>
+            <summary data-i18n="faq.q3">Do you work with small companies or startups?</summary>
+            <p data-i18n="faq.a3">Yes. Projects can start with a focused MVP, a technical audit, a small automation, or a phased delivery plan that grows with the business.</p>
           </details>
           <details>
-            <summary>How does a project start?</summary>
-            <p>A project starts with discovery: goals, current processes, users, constraints, expected outcomes, and a practical proposal for the next steps.</p>
+            <summary data-i18n="faq.q4">How does a project start?</summary>
+            <p data-i18n="faq.a4">A project starts with discovery: goals, current processes, users, constraints, expected outcomes, and a practical proposal for the next steps.</p>
           </details>
           <details>
-            <summary>Do you provide support after deployment?</summary>
-            <p>Yes. Altacalo-Soft can provide maintenance, monitoring, improvements, technical assistance, and operational support after deployment.</p>
+            <summary data-i18n="faq.q5">Do you provide support after deployment?</summary>
+            <p data-i18n="faq.a5">Yes. Altacalo-Soft can provide maintenance, monitoring, improvements, technical assistance, and operational support after deployment.</p>
           </details>
         </div>
       </div>
@@ -337,34 +344,34 @@
     <section class="section contact-section section-anchor" id="contact">
       <div class="container contact-layout">
         <div class="contact-copy reveal">
-          <p class="eyebrow">Contact</p>
-          <h2>Request a consultation</h2>
-          <p>Tell us what you want to improve, automate, integrate, or build. The form opens your email client with a prepared message.</p>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.heading">Request a consultation</h2>
+          <p data-i18n="contact.desc">Tell us what you want to improve, automate, integrate, or build. The form opens your email client with a prepared message.</p>
           <div class="contact-card">
-            <span>Email</span>
+            <span data-i18n="contact.emailLabel">Email</span>
             <a href="mailto:altacalosoft@outlook.com">altacalosoft@outlook.com</a>
           </div>
         </div>
 
         <form class="contact-form reveal" id="contact-form" aria-label="Contact form">
           <div class="field-group">
-            <label for="name">Name</label>
+            <label for="name" data-i18n="contact.formName">Name</label>
             <input id="name" name="name" type="text" autocomplete="name" required>
           </div>
           <div class="field-group">
-            <label for="email">Email</label>
+            <label for="email" data-i18n="contact.formEmail">Email</label>
             <input id="email" name="email" type="email" autocomplete="email" required>
           </div>
           <div class="field-group">
-            <label for="subject">Subject</label>
+            <label for="subject" data-i18n="contact.formSubject">Subject</label>
             <input id="subject" name="subject" type="text" required>
           </div>
           <div class="field-group">
-            <label for="message">Message</label>
+            <label for="message" data-i18n="contact.formMessage">Message</label>
             <textarea id="message" name="message" rows="6" required></textarea>
           </div>
           <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
-          <button class="button button-primary" type="submit">Send Message</button>
+          <button class="button button-primary" type="submit" data-i18n="contact.formSubmit">Send Message</button>
         </form>
       </div>
     </section>
@@ -374,29 +381,29 @@
     <div class="container footer-grid">
       <div>
         <a class="footer-brand" href="#home">Altacalo-Soft</a>
-        <p>Software and hardware consulting for automation, integration, and enterprise technology solutions.</p>
+        <p data-i18n="footer.desc">Software consulting for automation, integration, and enterprise technology solutions.</p>
       </div>
       <div>
-        <h2>Services</h2>
+        <h2 data-i18n="footer.servicesHeading">Services</h2>
         <ul>
-          <li>Custom Software Development</li>
-          <li>Enterprise Architecture</li>
-          <li>Blockchain Solutions</li>
-          <li>PostgreSQL Support</li>
-          <li>Oracle Support</li>
-          <li>DevOps</li>
-          <li>Technology Outsourcing</li>
-          <li>UX/UI Design</li>
-          <li>CMS Web Development</li>
+          <li data-i18n="services.item1.title">Custom Software Development</li>
+          <li data-i18n="services.item2.title">Enterprise Architecture</li>
+          <li data-i18n="services.item3.title">Blockchain Solutions</li>
+          <li data-i18n="services.item4.title">PostgreSQL Support</li>
+          <li data-i18n="services.item5.title">Oracle Support</li>
+          <li data-i18n="services.item6.title">DevOps</li>
+          <li data-i18n="services.item7.title">Technology Outsourcing</li>
+          <li data-i18n="services.item8.title">UX/UI Design</li>
+          <li data-i18n="services.item9.title">CMS Web Development</li>
         </ul>
       </div>
       <div>
-        <h2>Email</h2>
+        <h2 data-i18n="footer.emailHeading">Email</h2>
         <a href="mailto:altacalosoft@outlook.com">altacalosoft@outlook.com</a>
       </div>
     </div>
     <div class="container footer-bottom">
-      <p>&copy; <span id="current-year"></span> Altacalo-Soft. All rights reserved.</p>
+      <p>&copy; <span id="current-year"></span> <span data-i18n="footer.copyright">Altacalo-Soft. All rights reserved.</span></p>
     </div>
   </footer>
 
