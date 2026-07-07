@@ -23,6 +23,7 @@ const translations = {
     'lang.groupAria': 'Language selector',
     'lang.switchToEnglish': 'Switch to English',
     'lang.switchToSpanish': 'Switch to Spanish',
+    'lang.switchToItalian': 'Switch to Italian',
 
     'hero.eyebrow': 'Software & IoT solutions',
     'hero.title': 'Software and IoT Solutions for Modern Businesses',
@@ -247,6 +248,7 @@ const translations = {
     'lang.groupAria': 'Selector de idioma',
     'lang.switchToEnglish': 'Cambiar a inglés',
     'lang.switchToSpanish': 'Cambiar a español',
+    'lang.switchToItalian': 'Cambiar a italiano',
 
     'hero.eyebrow': 'Soluciones de Software e IoT',
     'hero.title': 'Soluciones de Software e IoT para Empresas Modernas',
@@ -446,6 +448,231 @@ const translations = {
     'footer.servicesHeading': 'Servicios',
     'footer.emailHeading': 'Correo',
     'footer.copyright': 'Altacalo-Soft. Todos los derechos reservados.'
+  },
+  it: {
+    'meta.title': 'Altacalo-Soft | Soluzioni Software e IoT per Aziende Moderne',
+    'meta.description': 'Altacalo-Soft offre consulenza software, automazione dei processi, integrazione di sistemi e soluzioni tecnologiche aziendali per aziende moderne.',
+    'meta.ogTitle': 'Altacalo-Soft | Soluzioni Software e IoT',
+    'meta.ogDescription': 'Software su misura, automazione, integrazione tecnologica e supporto specializzato per aziende moderne.',
+
+    'nav.brandAria': 'Home di Altacalo-Soft',
+    'nav.home': 'Home',
+    'nav.solutions': 'Soluzioni',
+    'nav.software': 'Software',
+    'nav.services': 'Servizi',
+    'nav.iot': 'IoT',
+    'nav.company': 'Azienda',
+    'nav.process': 'Processo',
+    'nav.cases': 'Casi',
+    'nav.faq': 'FAQ',
+    'nav.contact': 'Contatti',
+    'nav.headerButton': 'Contattaci',
+    'nav.toggleOpen': 'Apri il menu di navigazione',
+    'nav.toggleClose': 'Chiudi il menu di navigazione',
+
+    'lang.groupAria': 'Selettore della lingua',
+    'lang.switchToEnglish': 'Passa all\'inglese',
+    'lang.switchToSpanish': 'Passa allo spagnolo',
+    'lang.switchToItalian': 'Passa all\'italiano',
+
+    'hero.eyebrow': 'Soluzioni Software e IoT',
+    'hero.title': 'Soluzioni Software e IoT per Aziende Moderne',
+    'hero.subtitle': 'Due modi in cui ti aiutiamo: software su misura per digitalizzare le tue operazioni e monitoraggio di sensori IoT con avvisi automatici.',
+    'hero.exploreSolutions': 'Esplora le Soluzioni',
+    'hero.exploreServices': 'Esplora i Servizi',
+    'hero.requestConsultation': 'Richiedi una Consulenza',
+    'hero.panelAria': 'Panoramica delle capacità di Altacalo-Soft',
+    'hero.metricLabel': 'Mentalità di supporto operativo continuo',
+    'hero.integrationTitle': 'Integrazione',
+    'hero.integrationDesc': 'Sistemi, dati e flussi di lavoro connessi.',
+    'hero.automationTitle': 'Automazione',
+    'hero.automationDesc': 'Consegna ripetibile e controllo dei processi.',
+
+    'solutions.eyebrow': 'Cosa facciamo',
+    'solutions.heading': 'Due aree di soluzione, un unico partner tecnologico',
+    'solutions.intro': 'Altacalo-Soft ti aiuta su due fronti. Scegli l\'area di cui hai bisogno — o combina entrambe.',
+    'solutions.software.title': 'Soluzioni Software',
+    'solutions.software.desc': 'Software su misura per digitalizzare, automatizzare e connettere le tue operazioni.',
+    'solutions.software.f1': 'Sviluppo su misura e piattaforme web',
+    'solutions.software.f2': 'Automazione e integrazione di sistemi',
+    'solutions.software.f3': 'Database, DevOps e supporto',
+    'solutions.software.link': 'Esplora il software',
+    'solutions.iot.title': 'Soluzioni IoT',
+    'solutions.iot.desc': 'Sensori Bluetooth e una piattaforma di monitoraggio con avvisi automatici.',
+    'solutions.iot.f1': 'Sensori Bluetooth e gateway',
+    'solutions.iot.f2': 'Installazione e archiviazione dei dati',
+    'solutions.iot.f3': 'Monitoraggio e avvisi automatici',
+    'solutions.iot.link': 'Esplora l\'IoT',
+
+    'services.eyebrow': 'Soluzioni Software',
+    'services.heading': 'Servizi software pensati per risultati concreti',
+    'services.intro': 'Ingegneria, architettura, automazione e supporto per aiutarti a modernizzare le operazioni senza complessità inutile.',
+    'services.item1.title': 'Sviluppo Software su Misura',
+    'services.item1.desc': 'Piattaforme web, sistemi aziendali, API e strumenti digitali progettati su misura per i tuoi processi.',
+    'services.item2.title': 'Architettura Aziendale',
+    'services.item2.desc': 'Pianificazione dell\'architettura per ecosistemi tecnologici aziendali scalabili, sicuri e manutenibili.',
+    'services.item3.title': 'Soluzioni Blockchain',
+    'services.item3.desc': 'Consulenza e implementazione per tracciabilità, smart contract e flussi di transazioni decentralizzate.',
+    'services.item4.title': 'Supporto PostgreSQL',
+    'services.item4.desc': 'Consulenza sui database, ottimizzazione, amministrazione, affidabilità e supporto in produzione.',
+    'services.item5.title': 'Supporto Oracle',
+    'services.item5.desc': 'Assistenza specializzata per ambienti Oracle, analisi delle prestazioni, migrazioni e pianificazione della manutenzione.',
+    'services.item6.title': 'DevOps',
+    'services.item6.desc': 'CI/CD, automazione dell\'infrastruttura, monitoraggio, strategia di distribuzione e affidabilità operativa.',
+    'services.item7.title': 'Outsourcing Tecnologico',
+    'services.item7.desc': 'Capacità tecnica dedicata per software, infrastruttura, supporto e consegna dei progetti.',
+    'services.item8.title': 'Design UX/UI',
+    'services.item8.desc': 'Design di interfacce per strumenti aziendali, dashboard, portali ed esperienze di servizi digitali.',
+    'services.item9.title': 'Sviluppo Web con CMS',
+    'services.item9.desc': 'Siti web di contenuti manutenibili e pagine basate su CMS per team che necessitano di flussi di pubblicazione chiari.',
+    'services.item10.title': 'Monitoraggio di Sensori IoT',
+    'services.item10.desc': 'Sensori Bluetooth, gateway e la nostra piattaforma di monitoraggio con archiviazione dei dati e avvisi automatici.',
+
+    'iot.eyebrow': 'Monitoraggio IoT',
+    'iot.heading': 'Monitoraggio di sensori Bluetooth con avvisi automatici',
+    'iot.intro': 'Installiamo sensori Bluetooth, li colleghiamo a un gateway e inviamo i dati alla nostra piattaforma di monitoraggio. Vedi tutto in tempo reale e ricevi avvisi automatici quando qualcosa esce dai limiti.',
+    'iot.flowAria': 'Come funziona il sistema di monitoraggio',
+    'iot.flow1.title': 'Sensori Bluetooth',
+    'iot.flow1.desc': 'Sensori di temperatura, umidità, porta e multisensore misurano le condizioni in loco.',
+    'iot.link1': 'Bluetooth (BLE)',
+    'iot.flow2.title': 'Gateway',
+    'iot.flow2.desc': 'Il gateway raccoglie i sensori vicini via Bluetooth e invia i dati online.',
+    'iot.link2': 'Cellulare / Internet',
+    'iot.flow3.title': 'Piattaforma Altacalo',
+    'iot.flow3.desc': 'La nostra piattaforma archivia le letture in modo sicuro e mantiene lo storico disponibile.',
+    'iot.link3': 'Tempo reale',
+    'iot.flow4.title': 'Monitoraggio e Avvisi',
+    'iot.flow4.desc': 'Le dashboard mostrano i dati in tempo reale e gli avvisi automatici ti segnalano quando viene superato un limite.',
+
+    'iot.sensors.heading': 'Sensori e gateway che installiamo',
+    'iot.sensors.intro': 'Installiamo e configuriamo l\'hardware, così devi solo guardare i dati.',
+    'iot.sensors.gatewayTag': 'Gateway',
+    'iot.sensors.sensorTag': 'Sensore',
+    'iot.sensors.specLink': 'Vedi le specifiche',
+    'iot.sensors.gateway.title': 'Gateway Cellulare da Esterno',
+    'iot.sensors.gateway.desc': 'Gateway robusto da esterno che raccoglie i sensori Bluetooth e invia i dati sulla rete cellulare.',
+    'iot.sensors.temphum.title': 'Sensore di Temperatura e Umidità',
+    'iot.sensors.temphum.desc': 'Letture continue di temperatura e umidità per stanze, magazzini e celle frigorifere.',
+    'iot.sensors.logger.title': 'Data Logger di Temperatura',
+    'iot.sensors.logger.desc': 'Registratore di temperatura che memorizza lo storico e garantisce la tracciabilità della catena del freddo.',
+    'iot.sensors.door.title': 'Sensore di Porta Bluetooth',
+    'iot.sensors.door.desc': 'Rileva aperture e chiusure delle porte per il controllo di accessi, sicurezza e celle frigorifere.',
+    'iot.sensors.multi.title': 'Multisensore',
+    'iot.sensors.multi.desc': 'Combina più misurazioni in un unico dispositivo per monitorare movimento, ambiente e stato.',
+
+    'iot.plans.heading': 'Monitoraggio sulla nostra piattaforma',
+    'iot.plans.intro': 'I dati vengono archiviati e visualizzati sulla piattaforma Altacalo. Scegli il piano più adatto alla tua operatività.',
+    'iot.plans.free.name': 'Versione gratuita',
+    'iot.plans.free.price': '$0',
+    'iot.plans.free.tagline': 'Per iniziare e provare la piattaforma.',
+    'iot.plans.free.f1': 'Visualizzazione dei dati in tempo reale',
+    'iot.plans.free.f2': 'Dashboard di monitoraggio di base',
+    'iot.plans.free.f3': 'Archiviazione dati limitata',
+    'iot.plans.free.f4': 'Nessun avviso automatico',
+    'iot.plans.pro.badge': 'Consigliato',
+    'iot.plans.pro.name': 'Piano mensile',
+    'iot.plans.pro.price': 'Mensile',
+    'iot.plans.pro.cycle': 'abbonamento',
+    'iot.plans.pro.tagline': 'Per operazioni continue che richiedono avvisi e storico.',
+    'iot.plans.pro.f1': 'Tutto ciò che è incluso nella versione gratuita',
+    'iot.plans.pro.f2': 'Archiviazione dati ampliata',
+    'iot.plans.pro.f3': 'Avvisi automatici via email e notifica',
+    'iot.plans.pro.f4': 'Storico esteso e report',
+    'iot.plans.pro.f5': 'Supporto tecnico prioritario',
+    'iot.plans.pro.cta': 'Richiedi questo piano',
+
+    'iot.service.heading': 'Un servizio completo di installazione e monitoraggio',
+    'iot.service.desc': 'Ci occupiamo di tutta la configurazione: dall\'installazione dei sensori all\'archiviazione dei dati e alla configurazione degli avvisi.',
+    'iot.service.item1.title': 'Installazione dei sensori',
+    'iot.service.item1.desc': 'Installazione e configurazione dei sensori e del gateway in loco.',
+    'iot.service.item2.title': 'Archiviazione dei dati',
+    'iot.service.item2.desc': 'Archiviazione sicura delle letture e dello storico sulla nostra piattaforma.',
+    'iot.service.item3.title': 'Monitoraggio',
+    'iot.service.item3.desc': 'Dashboard in tempo reale per seguire ogni sensore.',
+    'iot.service.item4.title': 'Avvisi automatici',
+    'iot.service.item4.desc': 'Notifiche immediate quando un valore esce dai limiti.',
+
+    'company.eyebrow': 'Chi è Altacalo-Soft',
+    'company.heading': 'Consulenza per una tecnologia connessa, scalabile ed efficiente',
+    'company.desc': 'Altacalo-Soft è una società di consulenza software focalizzata su sviluppo su misura, automazione e soluzioni digitali scalabili. Aiutiamo le organizzazioni a ottimizzare le operazioni con tecnologia sicura, efficiente e su misura.',
+    'company.value1.title': 'Innovazione',
+    'company.value1.desc': 'Soluzioni moderne che risolvono i vincoli reali dell\'azienda.',
+    'company.value2.title': 'Qualità',
+    'company.value2.desc': 'Implementazione disciplinata, test e revisione tecnica.',
+    'company.value3.title': 'Scalabilità',
+    'company.value3.desc': 'Architetture che evolvono insieme a utenti, dati e operazioni.',
+    'company.value4.title': 'Supporto Tecnico',
+    'company.value4.desc': 'Accompagnamento specializzato dopo il lancio e durante la crescita.',
+
+    'cta.eyebrow': 'Trasformazione digitale',
+    'cta.heading': 'Fai crescere la tua azienda con soluzioni digitali',
+    'cta.desc': 'Digitalizza i processi, centralizza le informazioni e migliora l\'efficienza operativa con soluzioni progettate per la tua azienda.',
+    'cta.button': 'Contattaci',
+
+    'approach.eyebrow': 'Il Nostro Approccio',
+    'approach.heading': 'Tre discipline software, un unico modello di consegna',
+    'approach.item1.title': 'Ingegneria di Prodotto',
+    'approach.item1.desc': 'Team agili, piattaforme web su misura, API e automazione dall\'analisi alla consegna.',
+    'approach.item2.title': 'Cloud e DevOps',
+    'approach.item2.desc': 'Pipeline CI/CD, automazione dell\'infrastruttura, monitoraggio e affidabilità nel deployment.',
+    'approach.item3.title': 'Dati e Integrazione',
+    'approach.item3.desc': 'Ingegneria dei database, integrazione dei sistemi e flussi di dati sicuri nel tuo stack.',
+
+    'process.eyebrow': 'Processo di Lavoro',
+    'process.heading': 'Un percorso chiaro dall\'esigenza aziendale a una soluzione supportata',
+    'process.step1.title': 'Analisi',
+    'process.step1.desc': 'Comprendiamo obiettivi, utenti, flussi di lavoro, vincoli, integrazioni e priorità operative.',
+    'process.step2.title': 'Design e Architettura',
+    'process.step2.desc': 'Definiamo la struttura della soluzione, l\'esperienza utente, i flussi di dati, le esigenze di sicurezza e il piano di consegna.',
+    'process.step3.title': 'Sviluppo e Test',
+    'process.step3.desc': 'Costruiamo in modo iterativo, validiamo le funzionalità, revisioniamo la qualità e testiamo i flussi critici per l\'azienda.',
+    'process.step4.title': 'Distribuzione e Supporto',
+    'process.step4.desc': 'Rilasciamo la soluzione, supportiamo l\'adozione, monitoriamo il comportamento e forniamo supporto post-distribuzione.',
+
+    'cases.eyebrow': 'Casi di Successo',
+    'cases.heading': 'Soluzioni di esempio',
+    'cases.intro': 'I casi seguenti sono esempi generici solo a scopo illustrativo. Non corrispondono a progetti reali di clienti.',
+    'cases.label': 'Soluzione di esempio',
+    'cases.case1.title': 'Piattaforma Interna di Gestione Aziendale',
+    'cases.case1.desc': 'Un concetto di piattaforma centralizzata per registri operativi, approvazioni, report e accesso del team basato sui ruoli.',
+    'cases.case2.title': 'App Mobile per Servizi Digitali',
+    'cases.case2.desc': 'Un concetto di servizio mobile per richieste dei clienti, monitoraggio dello stato, accesso sicuro degli utenti e notifiche digitali.',
+    'cases.case3.title': 'Automazione dei Processi Amministrativi',
+    'cases.case3.desc': 'Un concetto di automazione per il lavoro amministrativo ripetitivo, instradamento dei documenti, avvisi e dashboard interne.',
+
+    'faq.eyebrow': 'FAQ',
+    'faq.heading': 'Domande frequenti',
+    'faq.intro': 'Risposte rapide su come Altacalo-Soft avvia, costruisce e supporta i progetti tecnologici.',
+    'faq.q1': 'Come può Altacalo-Soft migliorare l\'efficienza della mia azienda?',
+    'faq.a1': 'Automatizzando le attività ripetitive, integrando sistemi scollegati, migliorando la visibilità dei dati e creando strumenti allineati ai tuoi reali flussi operativi.',
+    'faq.q2': 'Che tipo di soluzioni sviluppate?',
+    'faq.a2': 'Sviluppiamo software su misura, piattaforme web, API, automazione dei processi, soluzioni di database, integrazioni di sistemi, tecnologia embedded e modelli di supporto aziendale.',
+    'faq.q3': 'Lavorate con piccole aziende o startup?',
+    'faq.a3': 'Sì. I progetti possono iniziare con un MVP mirato, un audit tecnico, una piccola automazione o un piano di consegna a fasi che cresce insieme all\'azienda.',
+    'faq.q4': 'Come inizia un progetto?',
+    'faq.a4': 'Un progetto inizia con l\'analisi: obiettivi, processi attuali, utenti, vincoli, risultati attesi e una proposta pratica per i passi successivi.',
+    'faq.q5': 'Fornite supporto dopo la distribuzione?',
+    'faq.a5': 'Sì. Altacalo-Soft può fornire manutenzione, monitoraggio, miglioramenti, assistenza tecnica e supporto operativo dopo la distribuzione.',
+
+    'contact.eyebrow': 'Contatti',
+    'contact.heading': 'Richiedi una consulenza',
+    'contact.desc': 'Raccontaci cosa vuoi migliorare, automatizzare, integrare o costruire. Il modulo aprirà il tuo client di posta con un messaggio già pronto.',
+    'contact.emailLabel': 'Email',
+    'contact.formName': 'Nome',
+    'contact.formEmail': 'Email',
+    'contact.formSubject': 'Oggetto',
+    'contact.formMessage': 'Messaggio',
+    'contact.formSubmit': 'Invia Messaggio',
+    'contact.formError': 'Completa tutti i campi prima di inviare.',
+    'contact.formSuccess': 'Apertura del client di posta per inviare il messaggio.',
+    'contact.defaultSubject': 'Richiesta di consulenza',
+    'contact.bodyNamePrefix': 'Nome',
+    'contact.bodyMessagePrefix': 'Messaggio',
+
+    'footer.desc': 'Consulenza software per automazione, integrazione e soluzioni tecnologiche aziendali.',
+    'footer.servicesHeading': 'Servizi',
+    'footer.emailHeading': 'Email',
+    'footer.copyright': 'Altacalo-Soft. Tutti i diritti riservati.'
   }
 };
 
@@ -453,8 +680,11 @@ const LANG_STORAGE_KEY = 'altacalosoft-lang';
 
 const detectInitialLang = () => {
   const stored = localStorage.getItem(LANG_STORAGE_KEY);
-  if (stored === 'en' || stored === 'es') return stored;
-  return navigator.language && navigator.language.toLowerCase().startsWith('es') ? 'es' : 'en';
+  if (stored === 'en' || stored === 'es' || stored === 'it') return stored;
+  const browser = (navigator.language || '').toLowerCase();
+  if (browser.startsWith('es')) return 'es';
+  if (browser.startsWith('it')) return 'it';
+  return 'en';
 };
 
 let currentLang = detectInitialLang();
@@ -498,7 +728,10 @@ const applyLanguage = (lang) => {
   if (ogDescription) ogDescription.setAttribute('content', dict['meta.ogDescription']);
 
   const ogLocale = document.querySelector('meta[property="og:locale"]');
-  if (ogLocale) ogLocale.setAttribute('content', lang === 'es' ? 'es_ES' : 'en_US');
+  if (ogLocale) {
+    const localeMap = { es: 'es_ES', it: 'it_IT', en: 'en_US' };
+    ogLocale.setAttribute('content', localeMap[lang] || 'en_US');
+  }
 
   langButtons.forEach((btn) => {
     btn.setAttribute('aria-pressed', String(btn.getAttribute('data-lang') === lang));
