@@ -208,6 +208,7 @@ const translations = {
     'contact.heading': 'Request a consultation',
     'contact.desc': 'Tell us what you want to improve, automate, integrate, or build. The form opens your email client with a prepared message.',
     'contact.emailLabel': 'Email',
+    'contact.phoneLabel': 'Phone',
     'contact.formName': 'Name',
     'contact.formEmail': 'Email',
     'contact.formSubject': 'Subject',
@@ -222,6 +223,7 @@ const translations = {
     'footer.desc': 'Software consulting for automation, integration, and enterprise technology solutions.',
     'footer.servicesHeading': 'Services',
     'footer.emailHeading': 'Email',
+    'footer.phoneHeading': 'Phone',
     'footer.locationHeading': 'Location',
     'footer.location': 'Barcelona, Spain',
     'footer.copyright': 'Altacalo-Soft. All rights reserved.'
@@ -435,6 +437,7 @@ const translations = {
     'contact.heading': 'Solicita una consultoría',
     'contact.desc': 'Cuéntanos qué quieres mejorar, automatizar, integrar o construir. El formulario abrirá tu cliente de correo con un mensaje preparado.',
     'contact.emailLabel': 'Correo',
+    'contact.phoneLabel': 'Teléfono',
     'contact.formName': 'Nombre',
     'contact.formEmail': 'Correo',
     'contact.formSubject': 'Asunto',
@@ -449,6 +452,7 @@ const translations = {
     'footer.desc': 'Consultoría en software para automatización, integración y soluciones tecnológicas empresariales.',
     'footer.servicesHeading': 'Servicios',
     'footer.emailHeading': 'Correo',
+    'footer.phoneHeading': 'Teléfono',
     'footer.locationHeading': 'Ubicación',
     'footer.location': 'Barcelona, España',
     'footer.copyright': 'Altacalo-Soft. Todos los derechos reservados.'
@@ -662,6 +666,7 @@ const translations = {
     'contact.heading': 'Richiedi una consulenza',
     'contact.desc': 'Raccontaci cosa vuoi migliorare, automatizzare, integrare o costruire. Il modulo aprirà il tuo client di posta con un messaggio già pronto.',
     'contact.emailLabel': 'Email',
+    'contact.phoneLabel': 'Telefono',
     'contact.formName': 'Nome',
     'contact.formEmail': 'Email',
     'contact.formSubject': 'Oggetto',
@@ -676,6 +681,7 @@ const translations = {
     'footer.desc': 'Consulenza software per automazione, integrazione e soluzioni tecnologiche aziendali.',
     'footer.servicesHeading': 'Servizi',
     'footer.emailHeading': 'Email',
+    'footer.phoneHeading': 'Telefono',
     'footer.locationHeading': 'Sede',
     'footer.location': 'Barcellona, Spagna',
     'footer.copyright': 'Altacalo-Soft. Tutti i diritti riservati.'
