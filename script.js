@@ -144,7 +144,7 @@ const translations = {
 
     'company.eyebrow': 'About Altacalo-Soft',
     'company.heading': 'Consulting for connected, scalable, and efficient technology',
-    'company.desc': 'Founded in January 2026 and based in Barcelona, Spain, Altacalo-Soft brings together highly qualified professionals in software development and IoT systems, with solid experience delivering technology projects. We combine custom software with connected sensor solutions to help companies across Europe operate more efficiently, securely, and at scale.',
+    'company.desc': 'Founded in January 2026 and based in Tirana, Albania, Altacalo-Soft brings together highly qualified professionals in software development and IoT systems, with solid experience delivering technology projects. We combine custom software with connected sensor solutions to help companies across Europe operate more efficiently, securely, and at scale.',
     'company.value1.title': 'Innovation',
     'company.value1.desc': 'Modern solutions that solve real business constraints.',
     'company.value2.title': 'Quality',
@@ -225,7 +225,7 @@ const translations = {
     'footer.emailHeading': 'Email',
     'footer.phoneHeading': 'Phone',
     'footer.locationHeading': 'Location',
-    'footer.location': 'Barcelona, Spain',
+    'footer.location': 'Tirana, Albania',
     'footer.copyright': 'Altacalo-Soft. All rights reserved.'
   },
   es: {
@@ -373,7 +373,7 @@ const translations = {
 
     'company.eyebrow': 'Sobre Altacalo-Soft',
     'company.heading': 'Consultoría para una tecnología conectada, escalable y eficiente',
-    'company.desc': 'Fundada en enero de 2026 y con sede en Barcelona (España), Altacalo-Soft reúne a profesionales altamente cualificados en desarrollo de software y sistemas IoT, con sólida experiencia en proyectos tecnológicos. Combinamos software a la medida con soluciones de sensores conectados para ayudar a empresas de toda Europa a operar de forma más eficiente, segura y escalable.',
+    'company.desc': 'Fundada en enero de 2026 y con sede en Tirana (Albania), Altacalo-Soft reúne a profesionales altamente cualificados en desarrollo de software y sistemas IoT, con sólida experiencia en proyectos tecnológicos. Combinamos software a la medida con soluciones de sensores conectados para ayudar a empresas de toda Europa a operar de forma más eficiente, segura y escalable.',
     'company.value1.title': 'Innovación',
     'company.value1.desc': 'Soluciones modernas que resuelven limitaciones reales del negocio.',
     'company.value2.title': 'Calidad',
@@ -454,7 +454,7 @@ const translations = {
     'footer.emailHeading': 'Correo',
     'footer.phoneHeading': 'Teléfono',
     'footer.locationHeading': 'Ubicación',
-    'footer.location': 'Barcelona, España',
+    'footer.location': 'Tirana, Albania',
     'footer.copyright': 'Altacalo-Soft. Todos los derechos reservados.'
   },
   it: {
@@ -602,7 +602,7 @@ const translations = {
 
     'company.eyebrow': 'Chi è Altacalo-Soft',
     'company.heading': 'Consulenza per una tecnologia connessa, scalabile ed efficiente',
-    'company.desc': 'Fondata nel gennaio 2026 e con sede a Barcellona (Spagna), Altacalo-Soft riunisce professionisti altamente qualificati nello sviluppo software e nei sistemi IoT, con solida esperienza nei progetti tecnologici. Uniamo software su misura e soluzioni di sensori connessi per aiutare le aziende di tutta Europa a operare in modo più efficiente, sicuro e scalabile.',
+    'company.desc': 'Fondata nel gennaio 2026 e con sede a Tirana (Albania), Altacalo-Soft riunisce professionisti altamente qualificati nello sviluppo software e nei sistemi IoT, con solida esperienza nei progetti tecnologici. Uniamo software su misura e soluzioni di sensori connessi per aiutare le aziende di tutta Europa a operare in modo più efficiente, sicuro e scalabile.',
     'company.value1.title': 'Innovazione',
     'company.value1.desc': 'Soluzioni moderne che risolvono i vincoli reali dell\'azienda.',
     'company.value2.title': 'Qualità',
@@ -683,7 +683,7 @@ const translations = {
     'footer.emailHeading': 'Email',
     'footer.phoneHeading': 'Telefono',
     'footer.locationHeading': 'Sede',
-    'footer.location': 'Barcellona, Spagna',
+    'footer.location': 'Tirana, Albania',
     'footer.copyright': 'Altacalo-Soft. Tutti i diritti riservati.'
   }
 };
